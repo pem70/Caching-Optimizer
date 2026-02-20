@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "caching-optimizer"
+version = "0.1.0"
+description = "SDK for optimizing prompt prefix caching and estimating token/cost savings"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "pydantic>=2.8.0",
+  "tiktoken>=0.7.0",
+  "requests>=2.32.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+exclude = ["tests*"]
