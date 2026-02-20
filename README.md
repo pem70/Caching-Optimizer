@@ -1,4 +1,4 @@
-# Caching Optimizer SDK
+# Prompt Caching Optimizer SDK
 
 A lightweight Python SDK that optimizes chat message ordering for better prefix caching and estimates token/cost savings.
 
