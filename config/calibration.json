@@ -1,0 +1,12 @@
+{
+  "models": {
+    "gpt-4o-mini": {
+      "last_actual_cached_tokens": 6656,
+      "last_estimated_cached_tokens": 6656,
+      "last_observed_ratio": 1.0,
+      "ratio_ema": 0.68359375,
+      "samples": 5
+    }
+  },
+  "version": 1
+}
